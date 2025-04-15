@@ -1,0 +1,78 @@
+body {
+	scroll-behavior: smoth;
+	background-color: white;
+}
+
+#container-main {
+	height: 90vh;
+	display: flex;
+	flex-direction: row;
+/*	justify-content: space-between;*/
+}
+
+.container-left {
+	width: 33%;
+	border: 1px solid black;
+}
+
+.container-right {
+	width: 67%;
+	border: 1px solid black;
+	display: flex;
+	justify-content: flex-end;
+	align-content: flex-end;
+}
+
+#name {
+	font-family: "HelveticaNeue-Light";
+	font-size: 10em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border: 1px solid black;
+	background-color: white;
+	margin: 0.05em;
+}
+
+#container-nav {
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 0.3em;
+	margin: 0.5em;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid black;
+	background-color: white;
+	width: 50%;
+	border-radius: 0.5em;
+}
+
+.nav-about {
+	font-family: "HelveticaNeue-Light";
+	font-size: 3em;
+	border: 1px solid black;
+	justify-self: flex-start;
+}
+
+.nav-work {
+	font-family: "HelveticaNeue-Light";
+	font-size: 3em;
+	border: 1px solid black;
+	justify-self: center;
+}
+
+.nav-contact {
+	font-family: "HelveticaNeue-Light";
+	font-size: 3em;
+	border: 1px solid black;
+	justify-self: flex-end;
+}
+
+#greeting {
+	text-align: right;
+	font-family: "HelveticaNeue-Light";
+	font-size: 5em;
+	display: flex;
+	align-self: flex-end;
+}
